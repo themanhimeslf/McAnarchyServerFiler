@@ -9,4 +9,22 @@ for meste av koden, nettside og plugins.
 Igår installerte jeg linux OS på en SD kort til raspberry pi så jeg må la det installere før jeg kan begynne på minecraft serveren, men i mellom tiden kan jeg jobbe
 på nettsiden ivertfall.
 
-.
+
+Raspberry PI OS LINUX, SYSADMIN 5 INFO
+---------------------------
+Navn: August
+PC navn: September
+Username: as
+Passord  spør meg
+
+----------------------------
+Update cmnds for terminal
+
+$ sudo apt update
+
+$ sudo apt upgrade
+($ sudo apt full-upgrade)
+
+-------
+
+fdshjfdskfds

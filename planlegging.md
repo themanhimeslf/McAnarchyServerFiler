@@ -4,7 +4,7 @@ Planlegging
 # My Project
 
 [Intro](#Intro)  
-[Go to Usage](#Del 2)
+[Go to Usage](#Del2)
 
 
 
@@ -17,6 +17,6 @@ raspberry pi med linux OS for hosting av server og nettside
 og andre ting sikkert jeg ikke husker nå.
 
 
-## Del 2
+## Del2
 Instructions for installation.
 
