@@ -24,7 +24,12 @@ $ sudo apt update
 
 $ sudo apt upgrade
 ($ sudo apt full-upgrade)
-
 -------
+
+16-16
+Installerte linux OS på nytt til raspbery pi til å bytte passord (tror ikke det er en vei inne i den ifra det jeg fant ut av ivertfall) så nå må jeg egentelig bare
+installere alt for en minecraft server så tror jeg burde få den gående innenfor denne eller neste uke
+
+
 
 fdshjfdskfds
