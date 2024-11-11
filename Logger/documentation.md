@@ -33,6 +33,5 @@ installere alt for en minecraft server så tror jeg burde få den gående innenf
 16-17 
 tenker å sette opp minecraft server først, teste at den fungerer, så nettside og player count tracker
 
-
-
-fdshjfdskfds
+11-11
+Har glemt passordet til Pi, despair.
