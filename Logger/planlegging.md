@@ -18,5 +18,17 @@ og andre ting sikkert jeg ikke husker nå.
 
 
 ## Del2
-Instructions for installation.
+Jeg må finne ut hvordan lage en minecraft server bare og eventuelt connecte til den, 
+så må jeg fikse plugins evt med js eller installert fra 
+forhånd til å vise antall spillere, ping og kanskje et minimap av det.
+
+## del3 finale
+Først sette opp minecraft server,
+så nettside,
+så player count tracker.
+
+Først finne ut om det en gang går å runne en minecraft server på raspberry pi 4, hvis det fungerer og jeg greier å connecte går 
+jeg till neste stege, (mvp)
+
+
 
