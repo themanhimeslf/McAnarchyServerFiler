@@ -14,8 +14,8 @@ Raspberry PI OS LINUX, SYSADMIN 5 INFO
 ---------------------------
 Navn: August
 PC navn: September
-Username: as
-Passord  spør meg
+Username: august
+Passord: Natten
 21st night of september
 ----------------------------
 Update cmnds for terminal
@@ -25,6 +25,8 @@ $ sudo apt update
 $ sudo apt upgrade
 ($ sudo apt full-upgrade)
 -------
+
+--- LOGG ---
 
 16-16
 Installerte linux OS på nytt til raspbery pi til å bytte passord (tror ikke det er en vei inne i den ifra det jeg fant ut av ivertfall) så nå må jeg egentelig bare
@@ -37,4 +39,8 @@ tenker å sette opp minecraft server først, teste at den fungerer, så nettside
 Har glemt passordet til Pi, despair, må bruke Raspberry Pi Imager/manager til å "resette" og gi den OS igjen.
 
 11-12 
-Putter in ny OS.
+Putter in ny OS. Setter det opp, bruker, oppdatere alt etc
+
+    11:27 
+    Må installerer Java og minecraft server.
+
