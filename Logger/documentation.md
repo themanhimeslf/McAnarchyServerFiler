@@ -55,4 +55,6 @@ Putter in ny OS. Setter det opp, bruker, oppdatere alt etc
    Funket ikke heller
      13:53
      Installerer OS på nytt, greia er for clouded med alt nå skal finne noe som viser hvordan man kommer fram til det
-
+    2:11 pm
+    OS er installert bruker satt opp, Den bare laster akuratt nå.
+    
