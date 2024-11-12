@@ -48,3 +48,11 @@ Putter in ny OS. Setter det opp, bruker, oppdatere alt etc
     Installerte Minecraft server og java, men CMD sier at java ikke funker/ installert
     måtte installere java fra CMD med "sudo apt install openjdk-17-jre"  det funket ikke siden '17' er 1.18 og under og '23' er for den relative nye MC versjonen jeg brukre
    ' 1.21.3 '
+   1:40 pm
+   Det funket ikke, Despair.
+
+   Prøver å bare installere alle java versionene '17,21,22,23'
+   Funket ikke heller
+     13:53
+     Installerer OS på nytt, greia er for clouded med alt nå skal finne noe som viser hvordan man kommer fram til det
+
