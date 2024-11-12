@@ -17,12 +17,17 @@ raspberry pi med linux OS for hosting av server og nettside
 og andre ting sikkert jeg ikke husker nå.
 
 
-## Del2
+## Planen (11/12)
+Lage en minecraft server i Raspberri Pi 4, med Ubuntu OS.
+Lage en simpel placeholder nettside til å vise antall spillere, Ping, Status til serveren.
+Så kan jeg starte med plugins eventuelt.
+
+## Del 2 (usikker)
 Jeg må finne ut hvordan lage en minecraft server bare og eventuelt connecte til den, 
 så må jeg fikse plugins evt med js eller installert fra 
 forhånd til å vise antall spillere, ping og kanskje et minimap av det.
 
-## del3 finale
+## del 3 (usikker)
 Først sette opp minecraft server,
 så nettside,
 så player count tracker.

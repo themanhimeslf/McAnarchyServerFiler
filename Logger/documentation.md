@@ -31,7 +31,10 @@ Installerte linux OS på nytt til raspbery pi til å bytte passord (tror ikke de
 installere alt for en minecraft server så tror jeg burde få den gående innenfor denne eller neste uke
 
 16-17 
-tenker å sette opp minecraft server først, teste at den fungerer, så nettside og player count tracker
+tenker å sette opp minecraft server først, teste at den fungerer, så nettside og player count tracker (hadde ikke nok tid 11-12)
 
 11-11
-Har glemt passordet til Pi, despair.
+Har glemt passordet til Pi, despair, må bruke Raspberry Pi Imager/manager til å "resette" og gi den OS igjen.
+
+11-12 
+Putter in ny OS.
