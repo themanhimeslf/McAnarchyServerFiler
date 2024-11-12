@@ -44,3 +44,7 @@ Putter in ny OS. Setter det opp, bruker, oppdatere alt etc
     11:27 
     Må installerer Java og minecraft server.
 
+    1:13 pm
+    Installerte Minecraft server og java, men CMD sier at java ikke funker/ installert
+    måtte installere java fra CMD med "sudo apt install openjdk-17-jre"  det funket ikke siden '17' er 1.18 og under og '23' er for den relative nye MC versjonen jeg brukre
+   ' 1.21.3 '

@@ -4,7 +4,8 @@ Planlegging
 # My Project
 
 [Intro](#Intro/plan/Overview)  
-[Go to Usage](#Del2)
+[Sikkerhet](#sikkerhet)
+[MVP](#MVP)
 
 
 [Old plans](#gamle-planer)
@@ -15,14 +16,17 @@ Jeg tenker å lage en minecraft server hvor man kan såsagt gå inn og spille de
 en nettside,
 informasjon om hvordan hoste minecraft-server,
 raspberry pi med linux OS for hosting av server og nettside
-og andre ting sikkert jeg ikke husker nå.
+og andre ting sikkert <jeg ikke husker nå.
+
+## Sikkerhet
+Firewall, etc etc
 
 
 
-MVP
+## MVP
 Trenger,
 Server hostet på Raspberry pi 4, Java, Minecraft server setup/installation.
-----
+------
 Nice to have,
 Player counter, Server status on/off,  Server wi-fi/connection, Nettside.
 
