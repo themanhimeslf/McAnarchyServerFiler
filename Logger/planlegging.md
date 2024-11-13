@@ -1,6 +1,5 @@
 Planlegging
 
-
 # My Project
 
 [Intro](#Intro/plan/Overview)  
@@ -80,17 +79,18 @@ Så kan jeg starte med plugins eventuelt hvis det funker med java server.
 
 
 ## 6.1 Player tracker
+
     ---MINETRACK----
     https://github.com/Cryptkeeper/Minetrack
-    Install Node.js: Ensure Node.js is installed on your server. You can install it using:
+    you need Node.Js for this you can install it using:
     1.  sudo apt update
         sudo apt install nodejs npm
 
-    Clone Minetrack Repository: Clone the Minetrack repository from GitHub:
+    Clone the Minetrack repository from GitHub:
     2.  git clone https://github.com/Cryptkeeper/Minetrack.git
         cd Minetrack
 
-    Install Dependencies: Install the required dependencies:
+    Install the required dependencies:
     3.  npm install
         Configure Minetrack: Edit the config.json file to customize settings such as server IP, port, and update speed.
 
@@ -101,7 +101,7 @@ Så kan jeg starte med plugins eventuelt hvis det funker med java server.
 
     ---SERVERSTATS---
 
-    Follow the installation instructions provided on the GitHub page.
+    Follow the installation instructions on this github page.
     https://github.com/diced/ServerStats
 
     Customize the settings to match your server's requirements.
@@ -110,15 +110,12 @@ Så kan jeg starte med plugins eventuelt hvis det funker med java server.
 
     --VIS PÅ NETTSIDE
 
+    Use a script to fetch the player count data from Minetrack or ServerStats. (press the github/yt for whatever you chose)
 
-    Get the Player Count Data: Use a script to fetch the player count data from Minetrack or ServerStats4.
-
-    Embed the Data on Your Website: Use HTML and JavaScript to display the player count on your website4. Here's a simple example:
+    Use HTML and JavaScript to show the player count on your website.
 
     https://www.youtube.com/watch?v=Zjt0p7VoP3E
     https://github.com/leonardosnt/mc-player-counter
-
-Laget med hjelp av Co-pilot og august.
 ---
 
 
