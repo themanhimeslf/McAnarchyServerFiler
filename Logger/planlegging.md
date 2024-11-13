@@ -44,6 +44,8 @@ Så kan jeg starte med plugins eventuelt.
 
 
 ## Notater
+
+Sette opp minecraft server guide konkret hvis jeg noen gang trenger det igjen
 Ubuntu OS RPi 4b 8GB 32GB 
 Either SSH or do it manually/copy paste into terminal 
 Install java usually 17,21
@@ -62,7 +64,48 @@ Create a directory/folder for your minecraft server
 5. java -Xmx1024M -Xms1024M -jar server.jar nogui
 -Xmx, -Xms to adjust amount of ram. and start the server.
 
+Player tracker
 
+
+---MINETRACK----
+https://github.com/Cryptkeeper/Minetrack
+Install Node.js: Ensure Node.js is installed on your server. You can install it using:
+1.  sudo apt update
+    sudo apt install nodejs npm
+
+Clone Minetrack Repository: Clone the Minetrack repository from GitHub:
+2.  git clone https://github.com/Cryptkeeper/Minetrack.git
+    cd Minetrack
+
+Install Dependencies: Install the required dependencies:
+3.  npm install
+    Configure Minetrack: Edit the config.json file to customize settings such as server IP, port, and update speed.
+
+Run Minetrack: Start the Minetrack server:
+4.  node main.js
+
+Open your web browser and go to http://<your-server-ip>:8080 to view the player counter and other statistics.
+
+---SERVERSTATS---
+
+Follow the installation instructions provided on the GitHub page.
+https://github.com/diced/ServerStats
+
+Customize the settings to match your server's requirements.
+
+Open your web browser and go to the provided URL to view the player counter and other statistics.
+
+--VIS PÅ NETTSIDE
+
+
+Get the Player Count Data: Use a script to fetch the player count data from Minetrack or ServerStats4.
+
+Embed the Data on Your Website: Use HTML and JavaScript to display the player count on your website4. Here's a simple example:
+
+https://www.youtube.com/watch?v=Zjt0p7VoP3E
+https://github.com/leonardosnt/mc-player-counter
+
+Laget med hjelp av Co-pilot og august.
 
 --- gammelt ---
 ## gamle planer
@@ -88,3 +131,5 @@ https://minecraft.fandom.com/wiki/Server/Requirements/Dedicated#Unix_(Linux,_BSD
 https://www.intel.com/content/www/us/en/products/sku/33910/intel-core2-duo-processor-e8400-6m-cache-3-00-ghz-1333-mhz-fsb/specifications.html
 https://minecraft.fandom.com/wiki/Server/Requirements
 https://www.reddit.com/r/LinuxOnThinkpad/comments/1bblq0j/anyone_knows_how_to_make_a_minecraft_server_with/
+
+bruk av Co-pilot og chat-gpt for hjelp med å sette opp minecraft-server (gi mere konkret guide)
