@@ -57,4 +57,15 @@ Putter in ny OS. Setter det opp, bruker, oppdatere alt etc
      Installerer OS på nytt, greia er for clouded med alt nå skal finne noe som viser hvordan man kommer fram til det
     2:11 pm
     OS er installert bruker satt opp, Den bare laster akuratt nå.
-    
+
+11-13
+
+Er fortsatt usikker hvorfor det ikke fungerer tror det er pga man må gjøre mye mere i cmd men har ikke en konkret guide endå
+
+Nå sjekker jeg for om Raspberry Pi 4 har minimun "requirements" til å hoste en server
+basically om raspberry pi sin '1,5 Hz Quad Core-prosessor' er på/nærme nivå som 'Intel Core 2 Duo eller AMD Athlon 64 x2' begge er rundt 1.5ghz 
+
+nå som jeg ser det "https://minecraft.fandom.com/wiki/Server/Requirements" det er for windows men for linux "https://minecraft.fandom.com/wiki/Server/Requirements/Dedicated#Unix_(Linux,_BSD,_macOS)" så er den på nesten lik som 'Minimum og Acceptable'.
+
+Så det går mest sikkert må bare finne riktig prosess
+

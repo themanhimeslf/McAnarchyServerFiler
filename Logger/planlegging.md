@@ -16,7 +16,7 @@ Jeg tenker å lage en minecraft server hvor man kan såsagt gå inn og spille de
 en nettside,
 informasjon om hvordan hoste minecraft-server,
 raspberry pi med linux OS for hosting av server og nettside
-og andre ting sikkert <jeg ikke husker nå.
+og andre ting sikkert jeg ikke husker nå.
 
 ## Sikkerhet
 Firewall, etc etc
