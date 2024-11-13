@@ -67,5 +67,5 @@ basically om raspberry pi sin '1,5 Hz Quad Core-prosessor' er på/nærme nivå s
 
 nå som jeg ser det "https://minecraft.fandom.com/wiki/Server/Requirements" det er for windows men for linux "https://minecraft.fandom.com/wiki/Server/Requirements/Dedicated#Unix_(Linux,_BSD,_macOS)" så er den på nesten lik som 'Minimum og Acceptable'.
 
-Så det går mest sikkert må bare finne riktig prosess
+Så etter å ha sammenlingt dem går det mest sikkert må bare finne riktig prosess
 

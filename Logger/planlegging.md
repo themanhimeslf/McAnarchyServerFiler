@@ -7,7 +7,7 @@ Planlegging
 [Sikkerhet](#sikkerhet)
 [MVP](#MVP)
 
-
+[Kilder](#Kilder)
 [Old plans](#gamle-planer)
 
 
@@ -17,6 +17,11 @@ en nettside,
 informasjon om hvordan hoste minecraft-server,
 raspberry pi med linux OS for hosting av server og nettside
 og andre ting sikkert jeg ikke husker nå.
+
+ 11/23
+ Så etter å ha sammenlingt burde raspberry pi sin CPU funke spesielt siden den har 8 gb ram og ok lagringsplass
+ men du kan også spørre hvorfor jeg lager en minecraft java server og ikke bedrock, 1, Java er bedre, 2 Det er mere guider for java/plugins og annet og lettere for meg.
+
 
 ## Sikkerhet
 Firewall, etc etc
@@ -54,3 +59,10 @@ jeg till neste stege, (mvp)
 
 
 
+
+## Kilder
+https://www.cherryservers.com/blog/minecraft-server-ubuntu#1-install-minecraft-on-ubuntu-java-edition 
+https://minecraft.fandom.com/wiki/Server/Requirements/Dedicated#Unix_(Linux,_BSD,_macOS)
+https://www.intel.com/content/www/us/en/products/sku/33910/intel-core2-duo-processor-e8400-6m-cache-3-00-ghz-1333-mhz-fsb/specifications.html
+https://minecraft.fandom.com/wiki/Server/Requirements
+https://www.reddit.com/r/LinuxOnThinkpad/comments/1bblq0j/anyone_knows_how_to_make_a_minecraft_server_with/
