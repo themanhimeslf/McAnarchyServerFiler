@@ -4,13 +4,18 @@ Planlegging
 # My Project
 
 [Intro](#Intro/plan/Overview)  
-[Sikkerhet](#sikkerhet)
+*[Sikkerhet](#sikkerhet)
 [MVP](#MVP)
+
 [Planen](#Planen)
-[Endringer av Planen](#endringer-av-planen)
-[Notater](#Notater)
+
+[Endringer av Planen/notater](#endringer-av-planen)
+
+[Veiledning](#Notater)
+
 [Kilder](#Kilder)
-[Old plans](#gamle-planer)
+
+[Gamle ting for dokumentasjon](#Gammelt)
 
 
 ## Intro/plan
@@ -28,11 +33,13 @@ og andre ting sikkert jeg ikke husker nå.
 Firewall, etc etc
 
 ## MVP
-Trenger,
-Server hostet på Raspberry pi 4, Java, Minecraft server setup/installation.
-------
-Nice to have,
-Player counter, Server status on/off,  Server wi-fi/connection, Nettside.
+    Trenger,
+    --
+    Server hostet på Raspberry pi 4, Java, Minecraft server setup/installation.
+
+    Nice to have,
+    --
+    Player counter, Server status on/off,  Server wi-fi/connection, Nettside.
 
 
 ## Planen (11/12/24)
@@ -45,89 +52,92 @@ Så kan jeg starte med plugins eventuelt hvis det funker med java server.
 11/13 
   Usikker på om man kan ha plugins for java skal finne ut
 
+  Sjekket om Raspberry pi 4 kan håndtere å hoste en minecraft server so det kan pga 1.5 hz og minimum er ca 3 som burde holde
+
+  har greid å hoste det så den og spille der så den kan.
 
 
-## Notater
 
-Sette opp minecraft server guide konkret hvis jeg noen gang trenger det igjen
-Ubuntu OS RPi 4b 8GB 32GB 
-Either SSH or do it manually/copy paste into terminal 
-Install java usually 17,21
-1. sudo apt install openjdk- VERSION -jre 
+## 6. Minecraft server
 
-Create a directory/folder for your minecraft server
-2.  mkdir ~/minecraft
+
+    Sette opp minecraft server guide konkret hvis jeg noen gang trenger det igjen
+    Ubuntu OS RPi 4b 8GB 32GB 
+    Either SSH or do it manually/copy paste into terminal 
+    Install java usually 17,21
+    1. sudo apt install openjdk- VERSION -jre 
+
+    Create a directory/folder for your minecraft server
+    2.  mkdir ~/minecraft
     cd ~/minecraft
 
-3. Install minecraft server and move it to the minecraft directory/folder or use 'wget' in minecraft server directory
+    3. Install minecraft server and move it to the minecraft directory/folder or use 'wget' in minecraft server directory
 
-4. Edit the Eula.txt to say true and update any server.properties you want or use nano to adjust settings like gamemode, difficulty.
+    4. Edit the Eula.txt to say true and update any server.properties you want or use nano to adjust settings like gamemode, difficulty.
 
-5. java -Xmx1024M -Xms1024M -jar server.jar nogui
--Xmx, -Xms to adjust amount of ram. and start the server.
-
-Player tracker
-
----MINETRACK----
-https://github.com/Cryptkeeper/Minetrack
-Install Node.js: Ensure Node.js is installed on your server. You can install it using:
-1.  sudo apt update
-    sudo apt install nodejs npm
-
-Clone Minetrack Repository: Clone the Minetrack repository from GitHub:
-2.  git clone https://github.com/Cryptkeeper/Minetrack.git
-    cd Minetrack
-
-Install Dependencies: Install the required dependencies:
-3.  npm install
-    Configure Minetrack: Edit the config.json file to customize settings such as server IP, port, and update speed.
-
-Run Minetrack: Start the Minetrack server:
-4.  node main.js
-
-Open your web browser and go to http://<your-server-ip>:8080 to view the player counter and other statistics.
-
----SERVERSTATS---
-
-Follow the installation instructions provided on the GitHub page.
-https://github.com/diced/ServerStats
-
-Customize the settings to match your server's requirements.
-
-Open your web browser and go to the provided URL to view the player counter and other statistics.
-
---VIS PÅ NETTSIDE
+    5. java -Xmx1024M -Xms1024M -jar server.jar nogui
+    -Xmx, -Xms to adjust amount of ram. and start the server.
 
 
-Get the Player Count Data: Use a script to fetch the player count data from Minetrack or ServerStats4.
+## 6.1 Player tracker
+    ---MINETRACK----
+    https://github.com/Cryptkeeper/Minetrack
+    Install Node.js: Ensure Node.js is installed on your server. You can install it using:
+    1.  sudo apt update
+        sudo apt install nodejs npm
 
-Embed the Data on Your Website: Use HTML and JavaScript to display the player count on your website4. Here's a simple example:
+    Clone Minetrack Repository: Clone the Minetrack repository from GitHub:
+    2.  git clone https://github.com/Cryptkeeper/Minetrack.git
+        cd Minetrack
 
-https://www.youtube.com/watch?v=Zjt0p7VoP3E
-https://github.com/leonardosnt/mc-player-counter
+    Install Dependencies: Install the required dependencies:
+    3.  npm install
+        Configure Minetrack: Edit the config.json file to customize settings such as server IP, port, and update speed.
+
+    Run Minetrack: Start the Minetrack server:
+    4.  node main.js
+
+    Open your web browser and go to http://<your-server-ip>:8080 to view the player counter and other statistics.
+
+    ---SERVERSTATS---
+
+    Follow the installation instructions provided on the GitHub page.
+    https://github.com/diced/ServerStats
+
+    Customize the settings to match your server's requirements.
+
+    Open your web browser and go to the provided URL to view the player counter and other statistics.
+
+    --VIS PÅ NETTSIDE
+
+
+    Get the Player Count Data: Use a script to fetch the player count data from Minetrack or ServerStats4.
+
+    Embed the Data on Your Website: Use HTML and JavaScript to display the player count on your website4. Here's a simple example:
+
+    https://www.youtube.com/watch?v=Zjt0p7VoP3E
+    https://github.com/leonardosnt/mc-player-counter
 
 Laget med hjelp av Co-pilot og august.
+---
 
 
 
 
 
---- gammelt ---
-## gamle planer
-## Del 2 (gammelt)
+## Gammelt
+ Del 2 (gammelt)
 Jeg må finne ut hvordan lage en minecraft server bare og eventuelt connecte til den, 
 så må jeg fikse plugins evt med js eller installert fra 
 forhånd til å vise antall spillere, ping og kanskje et minimap av det.
 
-## del 3 (gammelt)
+del 3 (gammelt)
 Først sette opp minecraft server,
 så nettside,
 så player count tracker.
 
 Først finne ut om det en gang går å runne en minecraft server på raspberry pi 4, hvis det fungerer og jeg greier å connecte går 
 jeg till neste stege, (mvp)
-
-
 
 
 ## Kilder
