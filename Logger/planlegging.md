@@ -7,6 +7,7 @@ Planlegging
 [Sikkerhet](#sikkerhet)
 [MVP](#MVP)
 
+[Notater](#Notater)
 [Kilder](#Kilder)
 [Old plans](#gamle-planer)
 
@@ -40,6 +41,27 @@ Player counter, Server status on/off,  Server wi-fi/connection, Nettside.
 Lage en minecraft server i Raspberri Pi 4, med Ubuntu OS.
 Lage en simpel placeholder nettside til å vise antall spillere, Ping, Status til serveren.
 Så kan jeg starte med plugins eventuelt.
+
+
+## Notater
+Ubuntu OS RPi 4b 8GB 32GB 
+Either SSH or do it manually/copy paste into terminal 
+Install java usually 17,21
+1. sudo apt install openjdk- VERSION -jre 
+
+Create a directory/folder for your minecraft server
+2.  mkdir ~/minecraft
+    cd ~/minecraft
+
+3. Install minecraft server and move it to the minecraft directory/folder or use 'wget' in minecraft server directory
+
+4. Edit the Eula.txt to say true and update any server.properties you want or use nano to adjust settings like gamemode, difficulty.
+
+
+
+5. java -Xmx1024M -Xms1024M -jar server.jar nogui
+-Xmx, -Xms to adjust amount of ram. and start the server.
+
 
 
 --- gammelt ---
