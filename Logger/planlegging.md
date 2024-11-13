@@ -6,7 +6,8 @@ Planlegging
 [Intro](#Intro/plan/Overview)  
 [Sikkerhet](#sikkerhet)
 [MVP](#MVP)
-
+[Planen](#Planen)
+[Endringer av Planen](#endringer-av-planen)
 [Notater](#Notater)
 [Kilder](#Kilder)
 [Old plans](#gamle-planer)
@@ -19,15 +20,12 @@ informasjon om hvordan hoste minecraft-server,
 raspberry pi med linux OS for hosting av server og nettside
 og andre ting sikkert jeg ikke husker nå.
 
- 11/23
- Så etter å ha sammenlingt burde raspberry pi sin CPU funke spesielt siden den har 8 gb ram og ok lagringsplass
+  Så etter å ha sammenlingt burde raspberry pi sin CPU kan funke spesielt siden den har 8 gb ram og ok lagringsplass
  men du kan også spørre hvorfor jeg lager en minecraft java server og ikke bedrock, 1, Java er bedre, 2 Det er mere guider for java/plugins og annet og lettere for meg.
 
 
 ## Sikkerhet
 Firewall, etc etc
-
-
 
 ## MVP
 Trenger,
@@ -38,9 +36,15 @@ Player counter, Server status on/off,  Server wi-fi/connection, Nettside.
 
 
 ## Planen (11/12/24)
-Lage en minecraft server i Raspberri Pi 4, med Ubuntu OS.
+Lage en minecraft server i Raspberry Pi 4, med Ubuntu OS.
 Lage en simpel placeholder nettside til å vise antall spillere, Ping, Status til serveren.
-Så kan jeg starte med plugins eventuelt.
+Så kan jeg starte med plugins eventuelt hvis det funker med java server.
+
+## Endringer av planen
+
+11/13 
+  Usikker på om man kan ha plugins for java skal finne ut
+
 
 
 ## Notater
@@ -59,13 +63,10 @@ Create a directory/folder for your minecraft server
 
 4. Edit the Eula.txt to say true and update any server.properties you want or use nano to adjust settings like gamemode, difficulty.
 
-
-
 5. java -Xmx1024M -Xms1024M -jar server.jar nogui
 -Xmx, -Xms to adjust amount of ram. and start the server.
 
 Player tracker
-
 
 ---MINETRACK----
 https://github.com/Cryptkeeper/Minetrack
@@ -106,6 +107,10 @@ https://www.youtube.com/watch?v=Zjt0p7VoP3E
 https://github.com/leonardosnt/mc-player-counter
 
 Laget med hjelp av Co-pilot og august.
+
+
+
+
 
 --- gammelt ---
 ## gamle planer

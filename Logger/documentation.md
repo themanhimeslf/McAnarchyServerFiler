@@ -1,32 +1,45 @@
 Dokumentasjon av terminoppgaven.
 
+Forord
+--
+Denne dokumentasjon har ikke med seg alt av stegene jeg gjorde men en del av viktige ting som har skjedd, konkulasjoner og annet som er viktig til dette.
 10/14-15
 Først lagde jeg en mappe, MCfiler og koblet den til github og kommer til å bruke den
 for meste av koden, nettside og plugins.
 ![alt text](image-1.png)
 
+
+
+LOGG
+
 15-15
 Igår installerte jeg linux OS på en SD kort til raspberry pi så jeg må la det installere før jeg kan begynne på minecraft serveren, men i mellom tiden kan jeg jobbe
 på nettsiden ivertfall.
 
-
 Raspberry PI OS LINUX, SYSADMIN 5 INFO
 ---------------------------
+
 Navn: August
+
 PC navn: September
+
 Username: august
+
 Passord: Natten
+
 21st night of september
+
 ----------------------------
 Update cmnds for terminal
+---
 
 $ sudo apt update
 
 $ sudo apt upgrade
-($ sudo apt full-upgrade)
--------
 
---- LOGG ---
+
+------ LOGG ---------
+------------
 
 16-16
 Installerte linux OS på nytt til raspbery pi til å bytte passord (tror ikke det er en vei inne i den ifra det jeg fant ut av ivertfall) så nå må jeg egentelig bare
@@ -68,4 +81,14 @@ basically om raspberry pi sin '1,5 Hz Quad Core-prosessor' er på/nærme nivå s
 nå som jeg ser det "https://minecraft.fandom.com/wiki/Server/Requirements" det er for windows men for linux "https://minecraft.fandom.com/wiki/Server/Requirements/Dedicated#Unix_(Linux,_BSD,_macOS)" så er den på nesten lik som 'Minimum og Acceptable'.
 
 Så etter å ha sammenlingt dem går det mest sikkert må bare finne riktig prosess
+
+ 11:50
+ JEG GREIDE DET
+ GREIER Å KOBLE MEG TIL, SERVEREN FUNKER, KAN SPILLE ADMIN COMMANDS, VANLIGE COMMANDS FUNKER ALT FUNKER
+ 
+  nå for å bare customize, Adde plugins, sette opp nettside og alt annet litt usikkre på om plugins funker på java server som jeg har
+
+ ![alt text](image-3.png)
+ ![alt text](image-2.png)
+![alt text](image.png)
 
