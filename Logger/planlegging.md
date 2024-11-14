@@ -17,15 +17,12 @@ Planlegging
 [Gamle ting for dokumentasjon](#Gammelt)
 
 
-## Intro/plan
+## Intro
 Jeg tenker å lage en minecraft server hvor man kan såsagt gå inn og spille der, med en nettside som viser antall spillere i serveren, og potensielt et mini-map for det trenger jeg,
 en nettside,
 informasjon om hvordan hoste minecraft-server,
 raspberry pi med linux OS for hosting av server og nettside
 og andre ting sikkert jeg ikke husker nå.
-
-  Så etter å ha sammenlingt burde raspberry pi sin CPU kan funke spesielt siden den har 8 gb ram og ok lagringsplass
- men du kan også spørre hvorfor jeg lager en minecraft java server og ikke bedrock, 1, Java er bedre, 2 Det er mere guider for java/plugins og annet og lettere for meg.
 
 
 ## Sikkerhet
@@ -55,8 +52,18 @@ Så kan jeg starte med plugins eventuelt hvis det funker med java server.
 
   har greid å hoste det så den og spille der så den kan.
 
+usikker om jeg burde bruke java server eller spigot server 
+(forskjellen er at en kan man ha plugins på den andre ikke så mye)
+
+finne ut hvordan få DNS for serveren istede for å bruke ip
+ 
 
 
+## Td
+Ting som har kommet opp/ting jeg har skjønt eller tenkt på som er viktig
+
+Så etter å ha sammenlingt burde raspberry pi sin CPU kan funke spesielt siden den har 8 gb ram og ok lagringsplass
+ greide å lage en skript "./start.sh" til å starte serveren i terminalen
 ## 6. Minecraft server
 
 
@@ -117,9 +124,6 @@ Så kan jeg starte med plugins eventuelt hvis det funker med java server.
     https://www.youtube.com/watch?v=Zjt0p7VoP3E
     https://github.com/leonardosnt/mc-player-counter
 ---
-
-
-
 
 
 ## Gammelt

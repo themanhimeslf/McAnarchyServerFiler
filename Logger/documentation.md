@@ -92,3 +92,10 @@ Så etter å ha sammenlingt dem går det mest sikkert må bare finne riktig pros
  ![alt text](image-2.png)
 ![alt text](image.png)
 
+11/14
+lagde en bash script til å starte serveren med "./start.sh"
+![alt text](image-4.png)
+
+Prøver å finne ut om jeg må og om jeg trenger å installere og bruke spigot istedet
+![alt text](image-5.png)
+og jeg må prøve å finne ut hvordan få en dns for serveren istede for å skrive inn ip  ![alt text](image-3.png)
