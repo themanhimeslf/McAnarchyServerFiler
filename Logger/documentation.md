@@ -99,3 +99,6 @@ lagde en bash script til å starte serveren med "./start.sh"
 Prøver å finne ut om jeg må og om jeg trenger å installere og bruke spigot istedet
 ![alt text](image-5.png)
 og jeg må prøve å finne ut hvordan få en dns for serveren istede for å skrive inn ip  ![alt text](image-3.png)
+
+har også laget en ny fil.md for scripts som jeg kommer til å bruke
+![alt text](image-6.png)
