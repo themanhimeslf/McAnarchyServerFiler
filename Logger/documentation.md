@@ -102,3 +102,11 @@ og jeg må prøve å finne ut hvordan få en dns for serveren istede for å skri
 
 har også laget en ny fil.md for scripts som jeg kommer til å bruke
 ![alt text](image-6.png)
+
+11/15
+Installerer og prøver å starte en server med spigot
+![alt text](<Screenshot 2024-11-15 092943.png>)
+![alt text](<Screenshot 2024-11-15 092741.png>)
+
+
+finne ut hvordan få DNS for serveren istede for å bruke ip

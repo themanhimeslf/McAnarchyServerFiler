@@ -10,7 +10,15 @@ Planlegging
 
 [Endringer av Planen/notater](#endringer-av-planen)
 
+[6. Minecraft veiledning](#6-minecraft)
+    [6.1 Minecraft JAVA](#6.1-Minecraft-server-JAVA)
+    [6.2 Minecraft Spigot](#6.2-Minecraft-server-SPIGOT/BUILDTOOLS)'
+    [6.3 Minecraft tracker Java](#6.3-Player-tracker-JAVA)
+
 [Veiledning](#Notater)
+
+
+
 
 [Kilder](#Kilder)
 
@@ -55,7 +63,8 @@ Så kan jeg starte med plugins eventuelt hvis det funker med java server.
 usikker om jeg burde bruke java server eller spigot server 
 (forskjellen er at en kan man ha plugins på den andre ikke så mye)
 
-finne ut hvordan få DNS for serveren istede for å bruke ip
+11/15 
+bytter til spigotmc/buildtools
  
 
 
@@ -63,29 +72,54 @@ finne ut hvordan få DNS for serveren istede for å bruke ip
 Ting som har kommet opp/ting jeg har skjønt eller tenkt på som er viktig
 
 Så etter å ha sammenlingt burde raspberry pi sin CPU kan funke spesielt siden den har 8 gb ram og ok lagringsplass
- greide å lage en skript "./start.sh" til å starte serveren i terminalen
-## 6. Minecraft server
+greide å lage en skript "./start.sh" til å starte serveren i terminalen
 
+## 6. Minecraft
+Guide til å sette opp alt igjen hvis ting blir bricked
+---
+Ubuntu OS RPi 4b 8GB 32GB 
+Either SSH or do it manually/copy paste into terminal 
 
-    Sette opp minecraft server guide konkret hvis jeg noen gang trenger det igjen
-    Ubuntu OS RPi 4b 8GB 32GB 
-    Either SSH or do it manually/copy paste into terminal 
-    Install java usually 17,21
-    1. sudo apt install openjdk- VERSION -jre 
+Notater/Prerequisities:
+
+    Installer riktig/ den versjonen av java for den versjonen av minecraft du vil ha
+    sudo apt install openjdk-VERSJON-jre 
+
+    
+
+    For connection
+    Sudo ufw enable
+    Sudo ufw allow 22/tcp
+    Sudo ufw allow 25565/tcp 
+    
+    VIKTIG
+    Lag en mappe f.eks "minecraft" og put filene til serveren oppi der/cd inn dit
+
+---
+## 6.1 Minecraft server JAVA
+    Ha installert java
 
     Create a directory/folder for your minecraft server
-    2.  mkdir ~/minecraft
+    1.  mkdir ~/minecraft
     cd ~/minecraft
 
-    3. Install minecraft server and move it to the minecraft directory/folder or use 'wget' in minecraft server directory
+    2. Install minecraft server and move it to the minecraft directory/folder or use 'wget' in minecraft server directory
 
-    4. Edit the Eula.txt to say true and update any server.properties you want or use nano to adjust settings like gamemode, difficulty.
+    3. Edit the Eula.txt to say true and update any server.properties you want or use nano to adjust settings like gamemode, difficulty.
 
-    5. java -Xmx1024M -Xms1024M -jar server.jar nogui
+    4. java -Xmx1024M -Xms1024M -jar server.jar nogui
     -Xmx, -Xms to adjust amount of ram. and start the server.
 
+## 6.2 Minecraft server SPIGOT/BUILDTOOLS
+    Ha installert java og Git eventuelt
+    1. installer nyeste "BuildTools.jar" fra nettside eller med 'wget'
 
-## 6.1 Player tracker
+    2. så CD in i mappa "minecraft" f.eks. og run denne
+        java -jar BuildTools.jar
+    
+    3.
+
+## 6.3 Player tracker JAVA
 
     ---MINETRACK----
     https://github.com/Cryptkeeper/Minetrack
