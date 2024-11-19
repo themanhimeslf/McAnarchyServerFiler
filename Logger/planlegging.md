@@ -76,7 +76,7 @@ greide å lage en skript "./start.sh" til å starte serveren i terminalen
 
 ## 6. Minecraft
 Guide til å sette opp alt igjen hvis ting blir bricked
----
+
 Ubuntu OS RPi 4b 8GB 32GB 
 Either SSH or do it manually/copy paste into terminal 
 
@@ -99,25 +99,31 @@ Notater/Prerequisities:
 ## 6.1 Minecraft server JAVA
     Ha installert java
 
-    Create a directory/folder for your minecraft server
-    1.  mkdir ~/minecraft
-    cd ~/minecraft
+1. Create a directory/folder for your minecraft server
 
-    2. Install minecraft server and move it to the minecraft directory/folder or use 'wget' in minecraft server directory
+        mkdir ~/minecraft
+        cd ~/minecraft
+2. Install minecraft server and move it to the minecraft directory/folder or use 'wget' in minecraft server directory
 
-    3. Edit the Eula.txt to say true and update any server.properties you want or use nano to adjust settings like gamemode, difficulty.
+3. Edit the Eula.txt to say true and update any server.properties you want or use nano to adjust settings like gamemode, difficulty.
 
-    4. java -Xmx1024M -Xms1024M -jar server.jar nogui
-    -Xmx, -Xms to adjust amount of ram. and start the server.
+4. -Xmx, -Xms to adjust amount of ram. and start the server.
+
+        java -Xmx1024M -Xms1024M -jar server.jar nogui
+
 
 ## 6.2 Minecraft server SPIGOT/BUILDTOOLS
-    Ha installert java og Git eventuelt
+Ha installert java og Git eventuelt
     1. installer nyeste "BuildTools.jar" fra nettside eller med 'wget'
 
-    2. så CD in i mappa "minecraft" f.eks. og run denne
+2. så CD in i mappa "minecraft" f.eks. og run denne
+
         java -jar BuildTools.jar
+3.  nogui = ingen grafisk interface fjern eller ha hvis du vill Xmx2g for hvor mye ram, xms for start ram
+
+            java -Xmx2G -Xms1G -jar "navn til serveren.jar" nogui
+    (du kan bytte navne til serveren med 'mv spigot-"" server.jar')
     
-    3.
 
 ## 6.3 Player tracker JAVA
 

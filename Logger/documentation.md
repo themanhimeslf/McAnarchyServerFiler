@@ -105,8 +105,18 @@ har også laget en ny fil.md for scripts som jeg kommer til å bruke
 
 11/15
 Installerer og prøver å starte en server med spigot
-![alt text](<Screenshot 2024-11-15 092943.png>)
 ![alt text](<Screenshot 2024-11-15 092741.png>)
+![alt text](<Screenshot 2024-11-15 092943.png>)
+![alt text](image-7.png)
+
+Funket ikke 10:50 
+skal full resette Pi og prøve på nytt pga tror noe er korrupt men usikker
+![alt text](image-9.png)
+har greid å lage java server tror prinsippet er det samme
+bare fucket opp et sted
+
 
 
 finne ut hvordan få DNS for serveren istede for å bruke ip
+
+og en ting til, noen plugins antar jeg er backwards compatible så jeg kan bruke den på nyere minecraft versjoner selvom de er eldre

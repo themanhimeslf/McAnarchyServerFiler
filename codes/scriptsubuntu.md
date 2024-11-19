@@ -12,6 +12,7 @@ start.sh
 
     java -Xms#G -Xmx#G -XX:+UseG1GC -jar spigot.jar nogui
 
-Så for begge
+For å ha GUI bytt "nogui" til "gui"
 
-chmod +x start.sh
+Så for begge
+    chmod +x start.sh
