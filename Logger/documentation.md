@@ -46,7 +46,7 @@ Installerte linux OS på nytt til raspbery pi til å bytte passord (tror ikke de
 installere alt for en minecraft server så tror jeg burde få den gående innenfor denne eller neste uke
 
 16-17 
-tenker å sette opp minecraft server først, teste at den fungerer, så nettside og player count tracker (hadde ikke nok tid 11-12)
+tenker å sette opp minecraft server først, teste at den fungerer, så gjøre alt annet (hadde ikke nok tid)
 
 11-11
 Har glemt passordet til Pi, despair, må bruke Raspberry Pi Imager/manager til å "resette" og gi den OS igjen.
@@ -54,22 +54,22 @@ Har glemt passordet til Pi, despair, må bruke Raspberry Pi Imager/manager til �
 11-12 
 Putter in ny OS. Setter det opp, bruker, oppdatere alt etc
 
-    11:27 
+   
     Må installerer Java og minecraft server.
 
-    1:13 pm
-    Installerte Minecraft server og java, men CMD sier at java ikke funker/ installert
-    måtte installere java fra CMD med "sudo apt install openjdk-17-jre"  det funket ikke siden '17' er 1.18 og under og '23' er for den relative nye MC versjonen jeg brukre
-   ' 1.21.3 '
-   1:40 pm
-   Det funket ikke, Despair.
+    
+  Installerte Minecraft server og java, men CMD sier at java ikke funker/ installert
+  måtte installere java fra CMD med "sudo apt install openjdk-17-jre"  det funket ikke siden '17' er 1.18 og under og '23' er for den relative nye MC versjonen jeg brukre
+  ' 1.21.3 '
+   
+  Det funket ikke, Despair.
 
-   Prøver å bare installere alle java versionene '17,21,22,23'
-   Funket ikke heller
-     13:53
-     Installerer OS på nytt, greia er for clouded med alt nå skal finne noe som viser hvordan man kommer fram til det
-    2:11 pm
-    OS er installert bruker satt opp, Den bare laster akuratt nå.
+  Prøver å bare installere alle java versionene '17,21,22,23'
+  Funket ikke heller
+  
+  Installerer OS på nytt, greia er for clouded med alt nå skal finne noe som viser hvordan man kommer fram til det
+  2:11 pm
+  OS er installert bruker satt opp, Den bare laster akuratt nå.
 
 11-13
 

@@ -32,7 +32,7 @@ informasjon om hvordan hoste minecraft-server,
 raspberry pi med linux OS for hosting av server og nettside
 og andre ting sikkert jeg ikke husker nå.
 
-
+Viktig: Å sette opp minecraft server er lett bare at jeg gjør det for første gang og fant aldri en konkret guide som viste hvordan man gjorde det.
 ## Sikkerhet
 Firewall, etc etc
 
@@ -82,32 +82,32 @@ Either SSH or do it manually/copy paste into terminal
 
 Notater/Prerequisities:
 
-    Installer riktig/ den versjonen av java for den versjonen av minecraft du vil ha
+    VIKTIG
+    Installer riktig/den versjonen av java for den versjonen av minecraft du vil ha
     sudo apt install openjdk-VERSJON-jre 
 
     
-
     For connection
     Sudo ufw enable
     Sudo ufw allow 22/tcp
     Sudo ufw allow 25565/tcp 
     
     VIKTIG
-    Lag en mappe f.eks "minecraft" og put filene til serveren oppi der/cd inn dit
+    Lag en mappe f.eks "minecraft" og put filene til serveren oppi der/cd inn dit (trenger ikke bare nyttig)
 
 ---
 ## 6.1 Minecraft server JAVA
     Ha installert java
 
-1. Create a directory/folder for your minecraft server
+1. Create a directory/folder for your minecraft server (trenger ikke bare nyttig)
 
         mkdir ~/minecraft
         cd ~/minecraft
-2. Install minecraft server and move it to the minecraft directory/folder or use 'wget' in minecraft server directory
+2. Install minecraft server and move it to the minecraft directory/folder or use 'wget' og link in minecraft server directory
 
 3. Edit the Eula.txt to say true and update any server.properties you want or use nano to adjust settings like gamemode, difficulty.
 
-4. -Xmx, -Xms to adjust amount of ram. and start the server.
+4. -Xmx, -Xms to adjust amount of ram. and start the server. (fjern nogui for gui)
 
         java -Xmx1024M -Xms1024M -jar server.jar nogui
 
@@ -164,6 +164,10 @@ Ha installert java og Git eventuelt
     https://www.youtube.com/watch?v=Zjt0p7VoP3E
     https://github.com/leonardosnt/mc-player-counter
 ---
+Viktig: Sa det før men sier det igjen, å sette opp en minecraft server er lett, men bare at jeg gjør det for første gang og vil bare gjøre alt rett.
+
+
+
 
 
 ## Gammelt
