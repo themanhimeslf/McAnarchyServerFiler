@@ -26,11 +26,9 @@ Planlegging
 
 
 ## Intro
-Jeg tenker å lage en minecraft server hvor man kan såsagt gå inn og spille der, med en nettside som viser antall spillere i serveren, og potensielt et mini-map for det trenger jeg,
-en nettside,
-informasjon om hvordan hoste minecraft-server,
-raspberry pi med linux OS for hosting av server og nettside
-og andre ting sikkert jeg ikke husker nå.
+Jeg tenker å lage en minecraft server hvor man kan såsagt gå inn og spille der, med en nettside som viser antall spillere i serveren, og potensielt et mini-map for det og en butikk kanskje.
+
+
 
 Viktig: Å sette opp minecraft server er lett bare at jeg gjør det for første gang og fant aldri en konkret guide som viste hvordan man gjorde det.
 ## Sikkerhet
@@ -39,11 +37,11 @@ Firewall, etc etc
 ## MVP
     Trenger,
     --
-    Server hostet på Raspberry pi 4, Java, Minecraft server setup/installation.
+    Server hostet på Raspberry pi 4, Java, Minecraft server setup/installation, Nettside.
 
     Nice to have,
     --
-    Player counter, Server status on/off,  Server wi-fi/connection, Nettside.
+    Player counter, Server status on/off,  Server wi-fi/connection status.
 
 
 ## Planen (11/12/24)
@@ -58,20 +56,21 @@ Så kan jeg starte med plugins eventuelt hvis det funker med java server.
 
   Sjekket om Raspberry pi 4 kan håndtere å hoste en minecraft server so det kan pga 1.5 hz og minimum er ca 3 som burde holde
 
-  har greid å hoste det så den og spille der så den kan.
+  Så etter å ha sammenlingt burde raspberry pi sin CPU kan funke spesielt siden den har 8 gb ram og ok lagringsplass
+
 
 usikker om jeg burde bruke java server eller spigot server 
 (forskjellen er at en kan man ha plugins på den andre ikke så mye)
 
 11/15 
+
 bytter til spigotmc/buildtools
  
 
 
-## Td
-Ting som har kommet opp/ting jeg har skjønt eller tenkt på som er viktig
 
-Så etter å ha sammenlingt burde raspberry pi sin CPU kan funke spesielt siden den har 8 gb ram og ok lagringsplass
+
+
 greide å lage en skript "./start.sh" til å starte serveren i terminalen
 
 ## 6. Minecraft
@@ -84,13 +83,12 @@ Notater/Prerequisities:
 
     VIKTIG
     Installer riktig/den versjonen av java for den versjonen av minecraft du vil ha
-    sudo apt install openjdk-VERSJON-jre 
-
+        sudo apt install openjdk-VERSJON-jre 
     
     For connection
-    Sudo ufw enable
-    Sudo ufw allow 22/tcp
-    Sudo ufw allow 25565/tcp 
+        Sudo ufw enable
+        Sudo ufw allow 22/tcp
+        Sudo ufw allow 25565/tcp 
     
     VIKTIG
     Lag en mappe f.eks "minecraft" og put filene til serveren oppi der/cd inn dit (trenger ikke bare nyttig)
@@ -125,24 +123,33 @@ Ha installert java og Git eventuelt
     (du kan bytte navne til serveren med 'mv spigot-"" server.jar')
     
 
+Viktig: Sa det før men sier det igjen, å sette opp en minecraft server er lett, men bare at jeg gjør det for første gang og vil bare gjøre alt rett.
+
+
+
+
+
+## Gammelt
+Intro: dette et enten ting som er gammelt eller ikke trengs men likavel her for dokumentasjon
+
 ## 6.3 Player tracker JAVA
 
     ---MINETRACK----
     https://github.com/Cryptkeeper/Minetrack
-    you need Node.Js for this you can install it using:
-    1.  sudo apt update
+        you need Node.Js for this you can install it using:
+        1.  sudo apt update
         sudo apt install nodejs npm
 
     Clone the Minetrack repository from GitHub:
-    2.  git clone https://github.com/Cryptkeeper/Minetrack.git
-        cd Minetrack
+        2.  git clone https://github.com/Cryptkeeper/Minetrack.git
+            cd Minetrack
 
     Install the required dependencies:
-    3.  npm install
-        Configure Minetrack: Edit the config.json file to customize settings such as server IP, port, and update speed.
+        3.  npm install
+            Configure Minetrack: Edit the config.json file to customize settings such as server IP, port, and update speed.
 
     Run Minetrack: Start the Minetrack server:
-    4.  node main.js
+        4.  node main.js
 
     Open your web browser and go to http://<your-server-ip>:8080 to view the player counter and other statistics.
 
@@ -157,20 +164,14 @@ Ha installert java og Git eventuelt
 
     --VIS PÅ NETTSIDE
 
-    Use a script to fetch the player count data from Minetrack or ServerStats. (press the github/yt for whatever you chose)
+        Use a script to fetch the player count data from Minetrack or ServerStats. (press the github/yt for whatever you chose)
 
-    Use HTML and JavaScript to show the player count on your website.
+        Use HTML and JavaScript to show the player count on your website.
 
-    https://www.youtube.com/watch?v=Zjt0p7VoP3E
-    https://github.com/leonardosnt/mc-player-counter
+        https://www.youtube.com/watch?v=Zjt0p7VoP3E
+        https://github.com/leonardosnt/mc-player-counter
 ---
-Viktig: Sa det før men sier det igjen, å sette opp en minecraft server er lett, men bare at jeg gjør det for første gang og vil bare gjøre alt rett.
 
-
-
-
-
-## Gammelt
  Del 2 (gammelt)
 Jeg må finne ut hvordan lage en minecraft server bare og eventuelt connecte til den, 
 så må jeg fikse plugins evt med js eller installert fra 
@@ -191,5 +192,3 @@ https://minecraft.fandom.com/wiki/Server/Requirements/Dedicated#Unix_(Linux,_BSD
 https://www.intel.com/content/www/us/en/products/sku/33910/intel-core2-duo-processor-e8400-6m-cache-3-00-ghz-1333-mhz-fsb/specifications.html
 https://minecraft.fandom.com/wiki/Server/Requirements
 https://www.reddit.com/r/LinuxOnThinkpad/comments/1bblq0j/anyone_knows_how_to_make_a_minecraft_server_with/
-
-bruk av Co-pilot og chat-gpt for hjelp med å sette opp minecraft-server (gi mere konkret guide)

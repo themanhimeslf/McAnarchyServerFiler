@@ -3,18 +3,11 @@ Dokumentasjon av terminoppgaven.
 Forord
 --
 Denne dokumentasjon har ikke med seg alt av stegene jeg gjorde men en del av viktige ting som har skjedd, konkulasjoner og annet som er viktig til dette.
+
 10/14-15
 Først lagde jeg en mappe, MCfiler og koblet den til github og kommer til å bruke den
 for meste av koden, nettside og plugins.
 ![alt text](image-1.png)
-
-
-
-LOGG
-
-15-15
-Igår installerte jeg linux OS på en SD kort til raspberry pi så jeg må la det installere før jeg kan begynne på minecraft serveren, men i mellom tiden kan jeg jobbe
-på nettsiden ivertfall.
 
 Raspberry PI OS LINUX, SYSADMIN 5 INFO
 ---------------------------
@@ -29,7 +22,6 @@ Passord: Natten
 
 21st night of september
 
-----------------------------
 Update cmnds for terminal
 ---
 
@@ -38,40 +30,46 @@ $ sudo apt update
 $ sudo apt upgrade
 
 
+
+
+
 ------ LOGG ---------
 ------------
 
-16-16
+
+Igår installerte jeg linux OS på en SD kort til raspberry pi så jeg må la det installere før jeg kan begynne på minecraft serveren, men i mellom tiden kan jeg jobbe
+på nettsiden ivertfall.
+
+
 Installerte linux OS på nytt til raspbery pi til å bytte passord (tror ikke det er en vei inne i den ifra det jeg fant ut av ivertfall) så nå må jeg egentelig bare
 installere alt for en minecraft server så tror jeg burde få den gående innenfor denne eller neste uke
 
-16-17 
+16/17 
+
 tenker å sette opp minecraft server først, teste at den fungerer, så gjøre alt annet (hadde ikke nok tid)
 
-11-11
-Har glemt passordet til Pi, despair, må bruke Raspberry Pi Imager/manager til å "resette" og gi den OS igjen.
+11/12
+Har glemt passordet til Pi, må bruke Raspberry Pi Imager/manager til å "resette" og gi den OS igjen.
 
-11-12 
+
 Putter in ny OS. Setter det opp, bruker, oppdatere alt etc
 
    
     Må installerer Java og minecraft server.
 
-    
-  Installerte Minecraft server og java, men CMD sier at java ikke funker/ installert
-  måtte installere java fra CMD med "sudo apt install openjdk-17-jre"  det funket ikke siden '17' er 1.18 og under og '23' er for den relative nye MC versjonen jeg brukre
-  ' 1.21.3 '
+    Installerte Minecraft server og java, men CMD sier at java ikke funker/ installert
+    måtte installere java fra CMD med "sudo apt install openjdk-17-jre"  det funket ikke siden '17' er 1.18 og under og '23' er for den relative nye MC versjonen jeg brukre' 1.21.3 '
    
-  Det funket ikke, Despair.
+  Det funket ikke.
 
   Prøver å bare installere alle java versionene '17,21,22,23'
   Funket ikke heller
   
   Installerer OS på nytt, greia er for clouded med alt nå skal finne noe som viser hvordan man kommer fram til det
-  2:11 pm
+ 
   OS er installert bruker satt opp, Den bare laster akuratt nå.
 
-11-13
+11/13
 
 Er fortsatt usikker hvorfor det ikke fungerer tror det er pga man må gjøre mye mere i cmd men har ikke en konkret guide endå
 
@@ -80,16 +78,14 @@ basically om raspberry pi sin '1,5 Hz Quad Core-prosessor' er på/nærme nivå s
 
 nå som jeg ser det "https://minecraft.fandom.com/wiki/Server/Requirements" det er for windows men for linux "https://minecraft.fandom.com/wiki/Server/Requirements/Dedicated#Unix_(Linux,_BSD,_macOS)" så er den på nesten lik som 'Minimum og Acceptable'.
 
-Så etter å ha sammenlingt dem går det mest sikkert må bare finne riktig prosess
+Så etter å ha sammenlingt dem går det mest sikkert må bare finne riktig prosess sikkert enklere en jeg tror eller finner
 
- 11:50
- JEG GREIDE DET
- GREIER Å KOBLE MEG TIL, SERVEREN FUNKER, KAN SPILLE ADMIN COMMANDS, VANLIGE COMMANDS FUNKER ALT FUNKER
+Greide det, alt fungerer som det skal, Kommandoer, spill, og annet.
  
   nå for å bare customize, Adde plugins, sette opp nettside og alt annet litt usikkre på om plugins funker på java server som jeg har
 
- ![alt text](image-3.png)
- ![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-2.png)
 ![alt text](image.png)
 
 11/14
@@ -120,3 +116,12 @@ bare fucket opp et sted
 finne ut hvordan få DNS for serveren istede for å bruke ip
 
 og en ting til, noen plugins antar jeg er backwards compatible så jeg kan bruke den på nyere minecraft versjoner selvom de er eldre
+
+
+11/26
+--
+Var syk noen dager, begynt på igjen, bare finjusterer rundt i dokumentasjon/logger for nå, usikker på om jeg burde gjøre ferdig minecraft server med plugins/mods eller starte på en nettside.
+
+12/3
+Fortsetter med nettside og skal prøve å koble
+til en db neste uke

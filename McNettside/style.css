@@ -1,0 +1,29 @@
+.title {
+    text-align: center;
+    font-size: x-large;
+    width: 100vw;
+}
+
+.PanelNav {
+    display: flex;
+        align-items: center;
+        padding-left: 32vw;
+
+    /* --tw-bg-opacity: 1;
+    background-color: rgb(65 65 65 / var(--tw-bg-opacity));
+    --tw-shadow: 0 4px 8px rgba(0, 0, 0, .15);
+    --tw-shadow-colored: 0 4px 8px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow); */
+
+}
+
+.Nav {
+    display: block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+}
