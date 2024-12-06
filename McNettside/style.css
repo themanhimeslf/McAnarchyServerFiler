@@ -1,5 +1,5 @@
-.body {
-
+body {
+    overflow-x: hidden;
 }
 
 .flex { 
@@ -11,11 +11,8 @@
 }
 
 .container {
-    /* margin-left: 0vw;
-    margin-right: 0vw;  */
     max-width: 100%;
     width: 100%;
-    /* fucks sum up idk why */
 }
 
 .title {
@@ -25,20 +22,28 @@
 }
 
 .PanelNav {
-    background-color: black;
     padding-top: .1rem;
     padding-bottom: 0.1rem;
-
-    /* --tw-bg-opacity: 1;
+    width: 50vw;
+    --tw-bg-opacity: 1;
     background-color: rgb(65 65 65 / var(--tw-bg-opacity));
     --tw-shadow: 0 4px 8px rgba(0, 0, 0, .15);
-    --tw-shadow-colored: 0 4px 8px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow); */
+    justify-content: space-evenly;
+}
+
+.wrapper {
+    justify-content: center;
+    width: 100vw;
+}
+
+.NavMain {
+    color: black;
+    background-color: rgb(166, 165, 165);    
 }
 
 .Nav {
-    color: white;
     text-decoration: none;
+    text-align: center;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 23px;
@@ -47,6 +52,10 @@
     font-weight: 600;
 }
 
-.Nav:hover {
-    font-size: 125%; 
+.TXT {
+    color: white;
+}
+
+.TXT:hover {
+    background-color: rgb(73, 73, 73);    
 }

@@ -125,3 +125,11 @@ Var syk noen dager, begynt på igjen, bare finjusterer rundt i dokumentasjon/log
 12/3
 Fortsetter med nettside og skal prøve å koble
 til en db neste uke
+
+12/6
+Samme som forrigje gang, 
+Jobber med nettside,
+Dokumentasjon e.g, Kanban,
+etc
+
+DB neste uke
