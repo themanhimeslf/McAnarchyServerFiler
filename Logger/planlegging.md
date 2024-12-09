@@ -8,7 +8,7 @@ Planlegging
 
 [Planen](#Planen)
 
-[Endringer av Planen/notater](#endringer-av-planen)
+[Endringer av Planen/NOTATER](#endringer-av-planen-NOTATER)
 
 [6. Minecraft veiledning](#6-minecraft)
     [6.1 Minecraft JAVA](#6.1-Minecraft-server-JAVA)
@@ -49,7 +49,24 @@ Lage en minecraft server i Raspberry Pi 4, med Ubuntu OS.
 Lage en simpel placeholder nettside til å vise antall spillere, Ping, Status til serveren.
 Så kan jeg starte med plugins eventuelt hvis det funker med java server.
 
-## Endringer av planen
+## Endringer av planen NOTATER
+
+12/9 Må gjøres og annet
+
+Tekst i main content, sidebar
+
+Shop    
+
+Gjør Modification&issues, about/terms sist
+
+DB server koble til butikken flask etc etc VIKTIG
+
+kanban shitte
+
+fikse player tracker til nettsteded -IKKE TESTET GUIDEN ENDÅ fit
+
+
+------------
 
 11/13 
   Usikker på om man kan ha plugins for java skal finne ut
@@ -67,11 +84,11 @@ usikker om jeg burde bruke java server eller spigot server
 bytter til spigotmc/buildtools
  
 
-
-
-
-
 greide å lage en skript "./start.sh" til å starte serveren i terminalen
+
+GAMMEL NOTATER/PLAN GREIER
+---
+
 
 ## 6. Minecraft
 Guide til å sette opp alt igjen hvis ting blir bricked

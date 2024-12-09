@@ -133,3 +133,9 @@ Dokumentasjon e.g, Kanban,
 etc
 
 DB neste uke
+
+12/9
+
+Før forstå jeg og gud denne koden,
+nå forstår bare gud koden.
+-----
