@@ -15,6 +15,11 @@ body {
     width: 100%;
 }
 
+.wrapper {
+    justify-content: center;
+    width: 100vw;
+}
+
 .title {
     text-align: center;
     font-size: x-large;
@@ -22,18 +27,17 @@ body {
 }
 
 .PanelNav {
-    padding-top: .1rem;
-    padding-bottom: 0.1rem;
+    padding-top: 10px;  
+    /* justerer på "link/boks distans fra boks til boksen rundt*/
+    padding-bottom: 10px;   
+    /* padding-top: .1rem;
+    padding-bottom: 0.1rem; */
     width: 50vw;
     --tw-bg-opacity: 1;
     background-color: rgb(65 65 65 / var(--tw-bg-opacity));
     --tw-shadow: 0 4px 8px rgba(0, 0, 0, .15);
     justify-content: space-evenly;
-}
-
-.wrapper {
-    justify-content: center;
-    width: 100vw;
+    /* border-radius: 5px; */
 }
 
 .NavMain {
@@ -42,14 +46,18 @@ body {
 }
 
 .Nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* samme som panelnav, pad,top/bot bare boksen inni link */
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    /* Justerer distans mellon hverandre og boks for link trykk */
     text-decoration: none;
     text-align: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 23px;
-    padding-bottom: 23px;
     font-size: 19px;
     font-weight: 600;
+    margin-right: .625rem;
+    display: block;
 }
 
 .TXT {
