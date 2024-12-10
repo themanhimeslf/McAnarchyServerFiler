@@ -9,31 +9,6 @@ Først lagde jeg en mappe, MCfiler og koblet den til github og kommer til å bru
 for meste av koden, nettside og plugins.
 ![alt text](image-1.png)
 
-Raspberry PI OS LINUX, SYSADMIN 5 INFO
----------------------------
-
-Navn: August
-
-PC navn: September
-
-Username: august
-
-Passord: Natten
-
-21st night of september
-
-Update cmnds for terminal
----
-
-$ sudo apt update
-
-$ sudo apt upgrade
-
-MariaDB
-
-
-
-
 
 
 
@@ -143,3 +118,13 @@ DB neste uke
 Før forstå jeg og gud denne koden,
 nå forstår bare gud koden.
 -----
+
+
+12/10
+
+Setter opp mariaDB og alt til det, skal også sette opp
+MariaDB
+DB
+Flask
+Shop
+,
