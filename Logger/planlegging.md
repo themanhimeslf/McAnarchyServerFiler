@@ -37,7 +37,9 @@ Firewall, etc etc
 ## MVP
     Trenger,
     --
-    Server hostet på Raspberry pi 4, Java, Minecraft server setup/installation, Nettside.
+    MariaDB, på raspberry pi, Nettside/butikk
+
+    Server hostet på Raspberry pi 4, Java, Minecraft server setup/installation, Nettside, 
 
     Nice to have,
     --
