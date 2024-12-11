@@ -3,93 +3,48 @@ Planlegging
 # My Project
 
 [Intro](#Intro/plan/Overview)  
-*[Sikkerhet](#sikkerhet)
+
+[Sikkerhet](#sikkerhet)
+
 [MVP](#MVP)
 
 [Planen](#Planen)
 
-[Endringer av Planen/NOTATER](#endringer-av-planen-NOTATER)
-
 [6. Minecraft veiledning](#6-minecraft)
-    [6.1 Minecraft JAVA](#6.1-Minecraft-server-JAVA)
-    [6.2 Minecraft Spigot](#6.2-Minecraft-server-SPIGOT/BUILDTOOLS)'
-    [6.3 Minecraft tracker Java](#6.3-Player-tracker-JAVA)
 
-[Veiledning](#Notater)
+[6.1 Minecraft JAVA](#6.1-Minecraft-server-JAVA)
 
+[6.2 Minecraft Spigot](#6.2-Minecraft-server-SPIGOT/BUILDTOOLS)
 
+[6.3 Minecraft tracker Java](#6.3-Player-tracker-JAVA)
 
 
 [Kilder](#Kilder)
 
 [Gamle ting for dokumentasjon](#Gammelt)
 
-
-## Intro
-Jeg tenker å lage en minecraft server hvor man kan såsagt gå inn og spille der, med en nettside som viser antall spillere i serveren, og potensielt et mini-map for det og en butikk kanskje.
-
-
-
-Viktig: Å sette opp minecraft server er lett bare at jeg gjør det for første gang og fant aldri en konkret guide som viste hvordan man gjorde det.
-## Sikkerhet
-Firewall, etc etc
-
-## MVP
-    Trenger,
-    --
-    MariaDB, på raspberry pi, Nettside/butikk
-
-    Server hostet på Raspberry pi 4, Java, Minecraft server setup/installation, Nettside, 
-
-    Nice to have,
-    --
-    Player counter, Server status on/off,  Server wi-fi/connection status.
-
-
 ## Planen (11/12/24)
 Lage en minecraft server i Raspberry Pi 4, med Ubuntu OS.
 Lage en simpel placeholder nettside til å vise antall spillere, Ping, Status til serveren.
 Så kan jeg starte med plugins eventuelt hvis det funker med java server.
 
-## Endringer av planen NOTATER
-
-12/9 Må gjøres og annet
-
-Tekst i main content, sidebar
-
-Shop    
-
-Gjør Modification&issues, about/terms sist
-
-DB server koble til butikken flask etc etc VIKTIG
-
-kanban shitte
-
-fikse player tracker til nettsteded -IKKE TESTET GUIDEN ENDÅ fit
+## Sikkerhet
 
 
-------------
+## MVP
+    Trenger,
+    --
+    MariaDB, på raspberry pi, Nettside/butikk
+    Minecraft server
+    
 
-11/13 
-  Usikker på om man kan ha plugins for java skal finne ut
-
-  Sjekket om Raspberry pi 4 kan håndtere å hoste en minecraft server so det kan pga 1.5 hz og minimum er ca 3 som burde holde
-
-  Så etter å ha sammenlingt burde raspberry pi sin CPU kan funke spesielt siden den har 8 gb ram og ok lagringsplass
+    Nice to have,
+    --
+    Player counter, Server status on/off,  Server wi-fi/connection status, Minecraft server
 
 
-usikker om jeg burde bruke java server eller spigot server 
-(forskjellen er at en kan man ha plugins på den andre ikke så mye)
 
-11/15 
 
-bytter til spigotmc/buildtools
- 
-
-greide å lage en skript "./start.sh" til å starte serveren i terminalen
-
-GAMMEL NOTATER/PLAN GREIER
----
 
 
 ## 6. Minecraft

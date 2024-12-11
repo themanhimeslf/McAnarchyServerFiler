@@ -4,6 +4,8 @@
 
 ## runlines
 ---
+hvis starter ny ubuntu/linux os
+
 $ sudo apt update
 
 $ sudo apt upgrade
@@ -16,6 +18,7 @@ $ sudo ufw allow 22
 
 ## scripts
 ---
+mc scripts
 
 Start script
 
@@ -36,3 +39,7 @@ Så for begge
     chmod +x start.sh
 
     Bruk 'start.sh' til å starte deretter.
+
+
+Andre scripts
+---

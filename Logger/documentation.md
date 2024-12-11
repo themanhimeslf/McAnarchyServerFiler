@@ -5,8 +5,7 @@ Forord
 Denne dokumentasjon har ikke med seg alt av stegene jeg gjorde men en del av viktige ting som har skjedd, konkulasjoner og annet som er viktig til dette.
 
 10/14-15
-Først lagde jeg en mappe, MCfiler og koblet den til github og kommer til å bruke den
-for meste av koden, nettside og plugins.
+lagde jeg en mappe, MCfiler og koblet den til github for lagring/backup
 ![alt text](image-1.png)
 
 
@@ -16,12 +15,8 @@ for meste av koden, nettside og plugins.
 ------------
 
 
-Igår installerte jeg linux OS på en SD kort til raspberry pi så jeg må la det installere før jeg kan begynne på minecraft serveren, men i mellom tiden kan jeg jobbe
-på nettsiden ivertfall.
-
-
-Installerte linux OS på nytt til raspbery pi til å bytte passord (tror ikke det er en vei inne i den ifra det jeg fant ut av ivertfall) så nå må jeg egentelig bare
-installere alt for en minecraft server så tror jeg burde få den gående innenfor denne eller neste uke
+Installerte OS til SD korte til Raspberry Pi.
+Måtte gjøre det igjen pga glemt passord/noe gikk feil.
 
 16/17 
 
@@ -90,41 +85,19 @@ skal full resette Pi og prøve på nytt pga tror noe er korrupt men usikker
 har greid å lage java server tror prinsippet er det samme
 bare fucket opp et sted
 
-
-
-finne ut hvordan få DNS for serveren istede for å bruke ip
-
-og en ting til, noen plugins antar jeg er backwards compatible så jeg kan bruke den på nyere minecraft versjoner selvom de er eldre
-
-
-11/26
---
-Var syk noen dager, begynt på igjen, bare finjusterer rundt i dokumentasjon/logger for nå, usikker på om jeg burde gjøre ferdig minecraft server med plugins/mods eller starte på en nettside.
+Var syk noen dager, har begynt på igjen, tenker å starte på nettside.
 
 12/3
-Fortsetter med nettside og skal prøve å koble
-til en db neste uke
-
-12/6
-Samme som forrigje gang, 
-Jobber med nettside,
-Dokumentasjon e.g, Kanban,
-etc
-
-DB neste uke
-
-12/9
-
-Før forstå jeg og gud denne koden,
-nå forstår bare gud koden.
------
+Har startet med nettside usikker på om jeg har tid til å 
+gjøre den ferdig til å lage en DB neste uke
 
 
 12/10
 
-Setter opp mariaDB og alt til det, skal også sette opp
-MariaDB
-DB
-Flask
-Shop
-,
+Setter opp MariaDB på raspberry PI, 
+men når jeg installerer flask går noe feil
+![alt text](image.png)
+
+
+
+

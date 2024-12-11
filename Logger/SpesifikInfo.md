@@ -1,4 +1,4 @@
-Raspberry PI OS LINUX, SYSADMIN 5 INFO
+Raspberry PI OS LINUX, SYSADMIN 5 INFO, GUIDES ETC
 ---
 
 Navn: August
@@ -16,9 +16,19 @@ Update cmnds for terminal
 MariaDB
 ---
 
-Pass: Natten
+ root Pass: Natten
+User pass; Batman
 
-Endringer--
+
+
+
+Endringer i begge.
+
+installerte pip/python
+
+flask
 
 Ingen anonymouse users, remote login not changed
 fjernet test database
+
+
