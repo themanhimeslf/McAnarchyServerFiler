@@ -14,6 +14,7 @@ lagde jeg en mappe, MCfiler og koblet den til github for lagring/backup
   - [Raspberry Pi Info](#raspberry-pi-info)             
   - [MariaDB Info](#mariadb-info)   
   - [Endringer](#endringer-i-beggeenhver)
+  - [MariaDB Commands](#mariadb-commands-SQL)
 
   # Minecraft Setup
 
@@ -24,8 +25,6 @@ lagde jeg en mappe, MCfiler og koblet den til github for lagring/backup
   - [6.2 Minecraft Spigot](#6.2-Minecraft-server-SPIGOT/BUILDTOOLS)
 
   - [6.3 Minecraft tracker Java](#6.3-Player-tracker-JAVA)
-
-
 
 
 ## Raspberry Pi Info
@@ -47,8 +46,6 @@ root Pass: Natten
 User pass; Batman
 
 ## Endringer i begge/enhver
-
-
 installerte pip/python
 
 flask
@@ -56,6 +53,23 @@ flask
 Ingen anonymouse users, remote login not changed
 fjernet test database
 
+## MariaDB commands SQL
+Vis databases
+    
+    SHOW DATABASES;
+
+Lag databaser 
+s
+```javascript
+console.log("Hello, world!");
+```
+
+    CREATE DATABASE database_name;
+drop/slett databaser 
+  
+    DROP DATABASE database_name;
+bruk Database 
+    USE database_name;
 
 
 
