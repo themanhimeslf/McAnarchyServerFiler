@@ -59,11 +59,6 @@ Vis databases
     SHOW DATABASES;
 
 Lag databaser 
-s
-```javascript
-console.log("Hello, world!");
-```
-
     CREATE DATABASE database_name;
 drop/slett databaser 
   
