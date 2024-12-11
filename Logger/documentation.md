@@ -100,7 +100,7 @@ fjernet test database
     DROP TABLE table_name;
 
   ## Manipuler datagreier
-  Velg alle rows fra en table
+  Velg allerows fra en table
 
     SELECT * FROM table_name;
   Velg column fra table
