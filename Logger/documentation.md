@@ -54,21 +54,64 @@ Ingen anonymouse users, remote login not changed
 fjernet test database
 
 ## MariaDB commands SQL
-Vis databases
+  - [Database Commands](#database-level-commands)
+  - [Table Commands](#table-level-commands)
+  - [Manipuler data](#manipuler-datagreier)
+    - [](#)
+      - [](#)
+  ## Database-level commands
+  Vis databases
     
     SHOW DATABASES;
+  Lag databaser 
 
-Lag databaser 
     CREATE DATABASE database_name;
-drop/slett databaser 
-  
+  drop/slett databaser 
+
     DROP DATABASE database_name;
-bruk Database 
+  bruk Database 
+
     USE database_name;
 
+  ## Table-level commands
 
+  Vis tables
 
+    SHOW TABLES;
+  Lag table
 
+   CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+   );
+
+  Forklar Table: 
+
+    DESCRIBE table_name; 
+  or 
+
+    EXPLAIN table_name;
+
+  gi nytt navn til ett table
+
+   RENAME TABLE old_table_name TO new_table_name;
+  Drop/slett table
+
+    DROP TABLE table_name;
+
+  ## Manipuler datagreier
+  Velg alle rows fra en table
+
+    SELECT * FROM table_name;
+  Velg column fra table
+
+    SELECT column1, column2 FROM table_name;
+  Slett rows
+
+    DELETE FROM table_name WHERE condition;
+  slett alle rows
+
+    DELETE FROM table_name;
 
 ## 6. Minecraft
 Guide til å sette opp alt igjen hvis ting blir bricked

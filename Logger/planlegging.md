@@ -18,13 +18,12 @@ Player tracker, status etc til serveren.
 
 ## MVP
     Trenger,
-    --
+    
     MariaDB, på raspberry pi, Nettside/butikk
     Minecraft server
     
-
     Nice to have,
-    --
+    
     Player counter, Server status on/off,  Server wi-fi/connection status, Minecraft server
 
 ## Sikkerhet
