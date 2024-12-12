@@ -13,18 +13,18 @@ Planlegging
 
 ## Planen (11/12/24)
 Lage en minecraft server som runner i Rasperry pi 4,
-Nettside med butikk til serveren/mc,
+Nettside med en butikk kanskje til serveren/mc,
 Player tracker, status etc til serveren.
 
 ## MVP
     Trenger,
     
     MariaDB, på raspberry pi, Nettside/butikk
-    Minecraft server
+    Minecraft server, Apache2 for nettside, player tracker etc og ajax
     
     Nice to have,
     
-    Player counter, Server status on/off,  Server wi-fi/connection status, Minecraft server
+    Player counter, Server status on/off,  Server wi-fi/connection status
 
 ## Sikkerhet
 
