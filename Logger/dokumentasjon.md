@@ -6,7 +6,7 @@ Denne dokumentasjon har ikke med seg alt av stegene jeg gjorde men en del av vik
 
 
 lagde jeg en mappe, MCfiler og koblet den til github for lagring/backup
-![alt text](image-1.png)
+![alt text](bilder/image-1.png)
 
 
 
@@ -24,7 +24,7 @@ lagde jeg en mappe, MCfiler og koblet den til github for lagring/backup
 
   - [6.2 Minecraft Spigot](#6.2-Minecraft-server-SPIGOT/BUILDTOOLS)
 
-  - [6.3 Minecraft tracker Java](#6.3-Player-tracker-JAVA)
+  - [6.3 Minecraft tracker UNTESTED ](#6.3-Player-tracker-JAVA)
 
 
 ## Raspberry Pi Info
@@ -32,7 +32,7 @@ Har også finnet ut at raspberry pi 4 kan håndtere nyeste versjonen av minecraf
 den består/greier minimum kravene.
 (yap om hvordan/hvorfor)
 
-  Nå sjekker jeg for om Raspberry Pi 4 har minimun "requirements" til å hoste en server
+  jeg for om Raspberry Pi 4 har minimun "requirements" til å hoste en server
   basically om raspberry pi sin '1,5 Hz Quad Core-prosessor' er på/nærme nivå som 'Intel Core 2 Duo eller AMD Athlon 64 x2' begge er rundt 1.5ghz 
   hvis du ser på det "https://minecraft.fandom.com/wiki/Server/Requirements" det er for windows men for linux "https://minecraft.fandom.com/wiki/Server/Requirements/Dedicated#Unix_(Linux,_BSD,_macOS)" så er den på nesten lik som 'Minimum og Acceptable'.
 
@@ -46,13 +46,16 @@ Username: august
 
 Passord: Natten
 
+ssh 10.2.3.82 
+
+ssh 192.168.0.64 
+
 21st night of september
 
-## MariaDB Info
+## MariaDB Info 
 
-root Pass: Natten
-
-User pass; Batman
+  root Pass: Natten
+  User pass; Batman
 
 ## Endringer
 installerte pip/python, Apache2, kanskje ajax, mcstatus
@@ -66,11 +69,10 @@ Måtte gjøre minecraft ledig for query til true og kanskje sette ip for dns?
 
 Query = true
 
-cd Desktop
-
 cd minecraft
 
 python3 getplayer.py
+
 ![alt text](<Screenshot 2024-12-12 154156.png>)
 ![alt text](JEGGREIDEDET.png)
 
@@ -82,6 +84,20 @@ python3 getplayer.py
   - [Manipuler data](#manipuler-datagreier)
     - [](#)
       - [](#)
+
+Relevant CMDS
+
+Stop DB
+
+    sudo systemctl stop mysql
+Start DB
+
+    sudo systemctl start mysql
+Restart DB
+
+sudo systemctl restart mysql
+
+
   ## Database-level commands
   Vis databases
     
@@ -304,30 +320,30 @@ Så etter å ha sammenlingt dem går det mest sikkert må bare finne riktig pros
 
 Greide det, alt fungerer som det skal, Kommandoer, spill, og annet.
 
-![alt text](image-3.png)
-![alt text](image-2.png)
-![alt text](image.png)
+![alt text](bilder/image-3.png)
+![alt text](bilder/image-2.png)
+![alt text](bilder/image.png)
 
 11/14
 lagde en bash script til å starte serveren med "./start.sh"
-![alt text](image-4.png)
+![alt text](bilder/image-4.png)
 
 Prøver å finne ut om jeg må og om jeg trenger å installere og bruke spigot istedet
-![alt text](image-5.png)
-og jeg må prøve å finne ut hvordan få en dns for serveren istede for å skrive inn ip  ![alt text](image-3.png)
+![alt text](bilder/image-5.png)
+og jeg må prøve å finne ut hvordan få en dns for serveren istede for å skrive inn ip  ![alt text](bilder/image-3.png)
 
 har også laget en ny fil.md for scripts som jeg kommer til å bruke
-![alt text](image-6.png)
+![alt text](bilder/image-6.png)
 
 11/15
 Installerer og prøver å starte en server med spigot
-![alt text](<Screenshot 2024-11-15 092741.png>)
-![alt text](<Screenshot 2024-11-15 092943.png>)
-![alt text](image-7.png)
+![alt text](<bilder/Screenshot 2024-11-15 092741.png>)
+![alt text](<bilder/Screenshot 2024-11-15 092943.png>)
+![alt text](bilder/image-7.png)
 
 Funket ikke
 skal full resette Pi og prøve på nytt pga tror noe er korrupt men usikker
-![alt text](image-9.png)
+![alt text](bilder/image-9.png)
 har greid å lage java server tror prinsippet er det samme
 bare fucket opp et sted
 
@@ -342,7 +358,7 @@ gjøre den ferdig til å lage en DB neste uke
 
 Setter opp MariaDB på raspberry PI, 
 men når jeg installerer flask går noe feil
-![alt text](image.png)
+![alt text](bilder/image-100.png)
 
 Fikset.
 
@@ -350,6 +366,6 @@ Installert apache.
 
 JEG GREIDE Å HENTE PLAYER OG PLAYERLISTE OG VISE DET PÅ EN NETTSIDE
 
-![alt text](<Screenshot 2024-12-12 154156.png>)
+![alt text](<bilder/Screenshot 2024-12-12 154156.png>)
 
 

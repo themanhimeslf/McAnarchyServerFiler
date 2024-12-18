@@ -1,45 +1,28 @@
 
-[RUNLINES](#runlines)  
-[Scripts](#scripts)  
-
-## runlines
----
-hvis starter ny ubuntu/linux os
-
-$ sudo apt update
-
-$ sudo apt upgrade
-
-$ sudo apt install openssh-server
-
-$ sudo ufw enable
-
-$ sudo ufw allow 22
-
-## scripts
 ---
 mc scripts
 
 Start script
 
-JAVA
-    start.sh
-    #!/bin/bash
-    java -XmxXXXXM -jar server.jar nogui
----------
+        ./"scriptname"
 
-SPIGOT
-    start.sh
-    #!/bin/sh
-    java -Xms#G -Xmx#G -XX:+UseG1GC -jar spigot.jar nogui
+JAVA MINECRAFT SERVER
+------------
 
-For å ha GUI bytt "nogui" til "gui"
+        #!/bin/bash
 
-Så for begge
-    chmod +x start.sh
+        # Starter mc server
+        echo "Starter Minecraft-server..."
+        java -Xmx1024M -Xms1024M -jar server.jar
 
-    Bruk 'start.sh' til å starte deretter.
+        echo "Minecraft server er oppe"
+
+Website 
+----
+
+        #!/bin/bash
 
 
-Andre scripts
----
+<!-- # Starter getplayer
+echo "Starter getplayer.py..."
+nohup python3 getplayer.py > getplayer.log 2>&1 & -->

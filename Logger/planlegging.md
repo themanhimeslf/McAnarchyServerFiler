@@ -1,5 +1,3 @@
-Sjekk mappen "Logger" for dokumentasjon
-
 Planlegging
 
 
@@ -19,7 +17,7 @@ Planlegging
  - Nødvendig installerte programmer og filer, f.eks: Pip/python, mcstatus, java, MCserver filer.
 
 
-## Planen
+## Planen (11/12/24)
 Lage en minecraft server som runner i Rasperry pi 4,
 Nettside med en butikk kanskje til serveren/mc,
 Player tracker, status etc til serveren.
@@ -38,21 +36,8 @@ Nice to have,
 - Server wi-fi/connection status
 
 ## Sikkerhet
-Fysiske
-
-    2 Komponenter.
-    Laptop & Raspberry Pi.
-
-Digitalt
-
-    Backups på github/pc
-    SSH/Internet
-    DDOS til server/raspberry pi
-
-Filtrere trafikk: Tillate eller blokkere trafikk basert på regler.
-(porter, etc.)
-
-Sikkerhet: Beskytte mot eksterne trusler som DDoS og uautorisert tilgang.
+Users, Physical, Digital.
+s
 
 
 <!-- 
