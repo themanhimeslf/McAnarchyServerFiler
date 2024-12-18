@@ -13,12 +13,18 @@ usikker på andre måter man kan ha backups
 
 Prerequisities til å gjøre det igjen
 ---
-  Installer riktig/den versjonen av java for den versjonen av minecraft du vil ha
+  Installere Python/pip, mcstatus, flask
+
+    sudo apt install -y python3 python3-pip
+  For mcstatus og flask
+    pip3 install mcstatus flask
+
+
+  Installere riktig java versjon for minecraft
 
         sudo apt install openjdk-VERSJON-jdk/jre
   vanligste er 17,21 (jdk for dev, jre for ikke dev)
-
-  Ha installert, pip/3, mcstatus,   
+ 
   For connection
 
         sudo ufw enable
@@ -43,9 +49,7 @@ Minecraft Setup
 
   - [6.1 Minecraft JAVA](#6.1-Minecraft-server-JAVA)
 
-  - [6.2 Minecraft Spigot](#6.2-Minecraft-server-SPIGOT/BUILDTOOLS)
-
-  - [6.3 Minecraft tracker UNTESTED ](#6.3-Player-tracker-JAVA)
+  - [6.2 Minecraft tracker UNTESTED ](#6.2-Player-tracker-JAVA)
 
 ## Raspberry Pi Info
 Har også finnet ut at raspberry pi 4 kan håndtere nyeste versjonen av minecraft med ca. 4-8+ spillere
@@ -234,8 +238,23 @@ BYTT PÅ SENERE TIL OPPDATERT INFORMASJON
 Viktig: Sa det før men sier det igjen, å sette opp en minecraft server er lett, men bare at jeg gjør det for første gang og vil bare gjøre alt rett. -->
 
 
-## 6.3 Player tracker JAVA
+## 6.2 Player tracker JAVA
 
+Create a dir in minecraft or otherwise and cd into it (make sure you have the prerequisities)
+
+    nano query.py
+  then copy paste the query.py code into there
+  then create another dir and put an index.html file with
+   <p><strong>{{ player_count }} Playing right now</strong></p>
+  That grabs the player count from query.py 
+  if you did everything correctly then
+    python3 query.py
+  should start a website displaying the player count
+  Remember to start the minecraft server
+
+
+
+<!-- 
     ---MINETRACK----
     https://github.com/Cryptkeeper/Minetrack
         you need Node.Js for this you can install it using:
@@ -272,7 +291,7 @@ Viktig: Sa det før men sier det igjen, å sette opp en minecraft server er lett
 
         https://www.youtube.com/watch?v=Zjt0p7VoP3E
         https://github.com/leonardosnt/mc-player-counter
-
+ -->
 
 
 
@@ -390,18 +409,18 @@ Directory for minecraft server nettsiden & player tracker
 
     app.py nano
 
-![alt text](image.png)
+![alt text](bilder/image11.png)
 
 henta index filen jeg skal bruke
-![alt text](image-1.png)
+![alt text](bilder/image-12.png)
 
 henta css filen
-![alt text](image-2.png)
+![alt text](bilder/image-13.png)
 
 skal nå runne det, jeg må runne minecraft først og så kan jeg prøve nettsiden/tracker
 
 fikk error melding
-![alt text](image-3.png)
+![alt text](image-14.png)
 
 Jeg hadde player_data istede for player_count og så fikset jeg det
 (byttet playerdata til playercount i index fil)
@@ -412,5 +431,5 @@ fikk noen error messages, style.css ble fjernet når jeg prøvde å mv men det f
 
 til slutt måtte jeg lage ny i style.css i static dir
 men funket ivertfall
-![alt text](image-5.png)
-![alt text](image-4.png)
+![alt text](bilder/image-15.png)
+![alt text](bilder/image-16.png)
