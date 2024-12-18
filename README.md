@@ -38,6 +38,8 @@ Nice to have,
 - Server wi-fi/connection status
 
 ## Sikkerhet
+for å beskytte mot eksterne trusler som DDoS og uautorisert tilgang.
+
 Fysiske
 
     2 Komponenter.
@@ -49,10 +51,15 @@ Digitalt
     SSH/Internet
     DDOS til server/raspberry pi
 
+Porter tilatt
+22 - for SSH
+25565 - for Minecraft
+5000 - For nettsiden
+"apache" - for apache
+
 Filtrere trafikk: Tillate eller blokkere trafikk basert på regler.
 (porter, etc.)
 
-Sikkerhet: Beskytte mot eksterne trusler som DDoS og uautorisert tilgang.
 
 
 <!-- 
