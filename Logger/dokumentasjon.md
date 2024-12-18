@@ -6,17 +6,38 @@ Denne dokumentasjon har ikke med seg alt av stegene jeg gjorde men en del av vik
 
 
 lagde jeg en mappe, MCfiler og koblet den til github for lagring/backup
+usikker på andre måter man kan ha backups
 ![alt text](bilder/image-1.png)
 
+  - [Logg](#logg)
 
+Prerequisities til å gjøre det igjen
+---
+  Installer riktig/den versjonen av java for den versjonen av minecraft du vil ha
 
-# Raspberry Pi Setup/Info/Teknisk info
+        sudo apt install openjdk-VERSJON-jdk/jre
+  vanligste er 17,21 (jdk for dev, jre for ikke dev)
+
+  Ha installert, pip/3, mcstatus,   
+  For connection
+
+        sudo ufw enable
+        sudo ufw allow 22/tcp
+        sudo ufw allow 25565/tcp 
+    
+  VIKTIG
+  Lag en mappe f.eks "minecraft" og put filene til serveren oppi der/cd inn dit (trenger ikke bare nyttig)
+
+ Raspberry Pi Setup/Info/Teknisk info
+---
+
   - [Raspberry Pi Info](#raspberry-pi-info)             
   - [MariaDB Info](#mariadb-info)  
   - [Endringer](#endringer)
   - [MariaDB Commands](#mariadb-commands-SQL)
 
-  # Minecraft Setup
+Minecraft Setup
+---
 
   - [6. Minecraft veiledning](#6-minecraft)
 
@@ -25,7 +46,6 @@ lagde jeg en mappe, MCfiler og koblet den til github for lagring/backup
   - [6.2 Minecraft Spigot](#6.2-Minecraft-server-SPIGOT/BUILDTOOLS)
 
   - [6.3 Minecraft tracker UNTESTED ](#6.3-Player-tracker-JAVA)
-
 
 ## Raspberry Pi Info
 Har også finnet ut at raspberry pi 4 kan håndtere nyeste versjonen av minecraft med ca. 4-8+ spillere
@@ -158,23 +178,6 @@ Guide til å sette opp alt igjen hvis ting blir bricked
 Ubuntu OS RPi 4b 8GB 32GB 
 Either SSH or do it manually/copy paste into terminal 
 
-Prerequisities:
----
-    Installer riktig/den versjonen av java for den versjonen av minecraft du vil ha
-
-        sudo apt install openjdk-VERSJON-jdk/jre
-    vanligste er 17,21 (jdk for dev, jre for ikke dev)
-    
-    For connection
-
-        sudo ufw enable
-
-        sudo ufw allow 22/tcp
-        sudo ufw allow 25565/tcp 
-    
-    VIKTIG
-    Lag en mappe f.eks "minecraft" og put filene til serveren oppi der/cd inn dit (trenger ikke bare nyttig)
-
 ## 6.1 Minecraft server JAVA
 1. Lag en folder for minecraft serveren (trenger ikke men nyttig)
 
@@ -278,7 +281,7 @@ Viktig: Sa det før men sier det igjen, å sette opp en minecraft server er lett
 
 
 
------- LOGG ---------
+## Logg
 ------------
  
 
@@ -369,3 +372,45 @@ JEG GREIDE Å HENTE PLAYER OG PLAYERLISTE OG VISE DET PÅ EN NETTSIDE
 ![alt text](<bilder/Screenshot 2024-12-12 154156.png>)
 
 
+Uke 51
+Alt går som nesten det skal måtte slette alt det jeg gjorde forgjegang og gjøre det på nytt. 
+det jeg har nå er 
+Minecraft server,
+Minecraft server start script,
+
+Directory for minecraft server nettsiden & player tracker
+
+    Dir for templates
+
+      nettside etc
+
+    dir for static (css, js etc)
+
+      css sånne filer etc
+
+    app.py nano
+
+![alt text](image.png)
+
+henta index filen jeg skal bruke
+![alt text](image-1.png)
+
+henta css filen
+![alt text](image-2.png)
+
+skal nå runne det, jeg må runne minecraft først og så kan jeg prøve nettsiden/tracker
+
+fikk error melding
+![alt text](image-3.png)
+
+Jeg hadde player_data istede for player_count og så fikset jeg det
+(byttet playerdata til playercount i index fil)
+og nå funker det
+eneste igjen er å koble til css 
+
+fikk noen error messages, style.css ble fjernet når jeg prøvde å mv men det funket ikke så sudo mv men det funket ikke heller når jeg byttet mellom dir bare ble borte
+
+til slutt måtte jeg lage ny i style.css i static dir
+men funket ivertfall
+![alt text](image-5.png)
+![alt text](image-4.png)

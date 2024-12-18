@@ -17,10 +17,7 @@ JAVA MINECRAFT SERVER
 
         echo "Minecraft server er oppe"
 
-Website 
-----
 
-        #!/bin/bash
 
 
 <!-- # Starter getplayer
