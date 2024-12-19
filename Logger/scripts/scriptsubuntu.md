@@ -17,6 +17,16 @@ JAVA MINECRAFT SERVER
 
         echo "Minecraft server er oppe"
 
+----- Add onto previous to check if worked  remove previous "minecraft server er oppe"
+
+        if [ $? -eq 0 ]; then
+                echo "Server startet"
+        else
+                echo "Server startet ikke"
+        fi
+
+        echo "Minecraft server er oppe"
+
 
 
 

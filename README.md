@@ -51,14 +51,30 @@ Digitalt
     SSH/Internet
     DDOS til server/raspberry pi
 
+
+deny/allow
+
+    sudo ufw deny/allow (port)
 Porter tilatt
 22 - for SSH
 25565 - for Minecraft
 5000 - For nettsiden
 "apache" - for apache
 
-Filtrere trafikk: Tillate eller blokkere trafikk basert på regler.
-(porter, etc.)
+Porter stengt
+23 - gammel telnet protocol, gir ut data, inkludert passord i "plain"   text, sårbar mot "man in the middle"
+21 - som telnet, gammel protocol.
+139 - windows fil deling og eternalblue angrep
+445 - samme
+
+
+hvorfor stenge porter? åpene porter gir potensiell angrepsmål, 
+Å stenge unødvendige porter reduserer risikoen for at angripere bruke sårbarheter.
+
+(hva gjør firewall mest traffikk filtering den analyserer data pakker og tillater/nekter dem basert på ip,port og andre greier)
+Kan også logge og følge på trafikken
+
+
 
 
 

@@ -108,8 +108,17 @@ python3 getplayer.py
   - [Manipuler data](#manipuler-datagreier)
     - [](#)
       - [](#)
+    
 
 Relevant CMDS
+---
+
+ Access mariaDB
+
+    mariadb -u root -p
+ show privs
+
+    show grants;
 
 Stop DB
 
@@ -241,18 +250,20 @@ Viktig: Sa det før men sier det igjen, å sette opp en minecraft server er lett
 ## 6.2 Player tracker JAVA
 
 Create a dir in minecraft or otherwise and cd into it (make sure you have the prerequisities)
+Then do this
 
     nano query.py
-  then copy paste the query.py code into there
+  Copy paste query.py code into there
+
   then create another dir and put an index.html file with
+
    <p><strong>{{ player_count }} Playing right now</strong></p>
   That grabs the player count from query.py 
   if you did everything correctly then
+
     python3 query.py
   should start a website displaying the player count
-  Remember to start the minecraft server
-
-
+  Remember to start the minecraft server before
 
 <!-- 
     ---MINETRACK----
@@ -292,13 +303,6 @@ Create a dir in minecraft or otherwise and cd into it (make sure you have the pr
         https://www.youtube.com/watch?v=Zjt0p7VoP3E
         https://github.com/leonardosnt/mc-player-counter
  -->
-
-
-
-
-
-
-
 
 ## Logg
 ------------
